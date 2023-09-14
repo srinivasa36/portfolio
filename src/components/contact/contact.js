@@ -46,7 +46,10 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p>asjdhsafgdksfhsjkafhsfjklhfjkhewruisdijfksdfdj</p>
+          <p>
+            I'm actively looking for Front end developer roles.You can contact
+            me by using below form.
+          </p>
           <form className="contact-form" ref={refForm} onSubmit={sendEmail}>
             <ul>
               <li className="half">
