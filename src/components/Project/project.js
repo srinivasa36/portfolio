@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../../components/AnimatedLetters/animatedLetters";
 import { Link } from "react-router-dom";
+import dashboardImage from "../../assets/images/UI-dashboard.png";
+import "./project.scss";
 
 import "./project.scss";
 import Loader from "react-loaders";
@@ -16,7 +18,7 @@ const Project = () => {
   return (
     <>
       <div className="container project-page">
-        <div className="text-zone">
+        <div className="text-zone project_txt">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -25,10 +27,13 @@ const Project = () => {
             />
           </h1>
           <div className="project">
-            <Link to="https://facebook.com" target="_blank">
+            <Link
+              to="https://react-adminui-dashboard.netlify.app/"
+              target="_blank"
+            >
               <div className="project_item">
-                <img alt="project_img" />
-                <h5>Project1</h5>
+                <img src={dashboardImage} alt="project_img" />
+                <h5>Dashboard Admin</h5>
               </div>
             </Link>
           </div>

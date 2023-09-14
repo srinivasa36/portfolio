@@ -1,0 +1,64 @@
+.project_txt {
+  width: 85% !important;
+  .project {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: auto;
+    gap: 15px;
+    overflow-y: hidden;
+    a {
+      text-decoration: none;
+      width: 300px;
+      min-height: 300px;
+      display: block;
+      .project_item {
+        width: 300px;
+        min-height: 300px;
+        animation: fadeIn 1s linear both;
+        animation-delay: 3s;
+        img {
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          object-position: left;
+          border-radius: 8px;
+          opacity: 0.7;
+          box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.3);
+          &:hover {
+            opacity: 1;
+          }
+        }
+        h5 {
+          text-decoration: none;
+          font-size: 16px;
+          margin: 10px 0;
+          text-align: center;
+          color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
