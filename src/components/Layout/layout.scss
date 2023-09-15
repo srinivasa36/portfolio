@@ -1,20 +1,27 @@
 .page {
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: relative;
 }
 .top-tags {
-  bottom: auto;
-  top: 35px;
+  bottom: 0;
+  top: 15px;
+  left: 9%;
+  right: 0;
 }
 .tags {
   color: #ffd700;
   opacity: 0.6;
   position: absolute;
-  bottom: 0;
-  left: 120px;
   font-size: 18px;
   font-family: "La Belle Aurore";
+}
+.bottom-tags {
+  top: 560px;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  display: block;
 }
 .bottom-tag-html {
   margin-left: -20px;
@@ -31,11 +38,12 @@
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 .about-page,
 .contact-page,
 .project-page {
+  height: 100vh;
   .text-zone {
     position: absolute;
     left: 10%;
@@ -97,6 +105,36 @@
   .text-animate-hover {
     &:hover {
       color: #fff;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .page {
+    overflow-y: scroll;
+    margin-top: 80px;
+    overflow-x: hidden;
+    .container {
+      left: 5%;
+      position: unset;
+    }
+    .top-tags {
+      left: 4%;
+    }
+  }
+  .about-page,
+  .contact-page,
+  .project-page {
+    width: 95%;
+    .text-zone {
+      width: 100%;
+      left: 0;
+      p {
+        font-size: 13px;
+      }
+      h1 {
+        font-size: 35px;
+      }
     }
   }
 }

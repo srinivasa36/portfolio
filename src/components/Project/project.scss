@@ -62,3 +62,21 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@media (max-width: 767px) {
+  .project_txt {
+    .project {
+      a {
+        width: 200px;
+        min-height: 200px;
+        .project_item {
+          width: 200px;
+          min-height: 200px;
+          img {
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}

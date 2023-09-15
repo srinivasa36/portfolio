@@ -78,3 +78,8 @@
     transform: rotateX(90deg);
   }
 }
+@media (max-width: 767px) {
+  .stage-cube-cont {
+    display: none;
+  }
+}

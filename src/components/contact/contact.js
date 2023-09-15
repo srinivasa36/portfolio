@@ -79,17 +79,7 @@ const Contact = () => {
             </ul>
           </form>
         </div>
-        <div className="info-map">
-          Srinivas A
-          <br />
-          India,
-          <br />
-          kengeri
-          <br />
-          Bengaluru
-          <br />
-          <span>iamsrinivas230@gmail.com</span>
-        </div>
+
         <div className="map-wrap">
           <MapContainer center={[12.932648, 77.4853643]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -99,6 +89,17 @@ const Contact = () => {
               </Popup>
             </Marker>
           </MapContainer>
+          <div className="info-map">
+            Srinivas A
+            <br />
+            India,
+            <br />
+            kengeri
+            <br />
+            Bengaluru
+            <br />
+            <span>iamsrinivas230@gmail.com</span>
+          </div>
         </div>
       </div>
       <Loader type="pacman" />

@@ -1,14 +1,14 @@
 .logo-container {
-  z-index: 0;
-  width: 400px;
-  height: 600px;
-  position: absolute;
-  top: 30%;
-  right: 15%;
-  bottom: 0;
-  left: auto;
-  margin: auto;
-  // opacity: 0;
+  // z-index: 0;
+  // width: 400px;
+  // height: 600px;
+  // position: absolute;
+  // top: 30%;
+  // right: 15%;
+  // bottom: 0;
+  // left: auto;
+  // margin: auto;
+  // // opacity: 0;
 
   // svg {
   //   width: 100%;
@@ -17,22 +17,30 @@
   //   transform: rotateZ(30deg) !important;
   // }
   .solid-logo {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    width: 100%;
+    // position: absolute;
+    // top: auto;
+    // right: auto;
+    // bottom: auto;
+    // left: 0;
+    // margin: auto;
+    // width: 100%;
     // opacity: 0;
     // transform: rotateZ(30deg);
     z-index: 1;
     border-radius: 50%;
     animation: fadeIn 1s linear both;
     animation-delay: 4s;
+    width: 400px;
+    vertical-align: middle;
+    height: 400px;
   }
 }
 // .svg-container {
 //   stroke: #ffd700;
 //   stroke-width: 10;
 // }
+@media (max-width: 767px) {
+  .logo-container {
+    display: none;
+  }
+}
