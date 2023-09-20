@@ -148,3 +148,14 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .nav-bar nav a:first-child::after,
+  .nav-bar nav a.about-link:after,
+  .nav-bar nav a.contact-link:after,
+  .nav-bar nav a.project-link:after {
+    content: none;
+  }
+  .nav-bar nav a:hover svg {
+    opacity: unset;
+  }
+}
