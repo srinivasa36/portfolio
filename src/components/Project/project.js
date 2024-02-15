@@ -36,6 +36,18 @@ const Project = () => {
                 <h5>Dashboard Admin</h5>
               </div>
             </Link>
+            <Link
+              to="https://recipe-app-responsive.netlify.app/"
+              target="_blank"
+            >
+              <div className="project_item">
+                <img
+                  src="https://images.pexels.com/photos/5966431/pexels-photo-5966431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="project_img"
+                />
+                <h5>Recipe App</h5>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
