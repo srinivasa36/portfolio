@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../../components/AnimatedLetters/animatedLetters";
 import { Link } from "react-router-dom";
 import dashboardImage from "../../assets/images/UI-dashboard.png";
-import recipeImage from "../../assets/images/Recipe-img.png";
 import "./project.scss";
 
 import "./project.scss";
@@ -42,7 +41,10 @@ const Project = () => {
               target="_blank"
             >
               <div className="project_item">
-                <img src={recipeImage} alt="project_img" />
+                <img
+                  src="https://images.pexels.com/photos/5966431/pexels-photo-5966431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="project_img"
+                />
                 <h5>Recipe App</h5>
               </div>
             </Link>
