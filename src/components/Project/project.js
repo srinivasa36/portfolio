@@ -57,7 +57,19 @@ const Project = () => {
                   src="https://images.pexels.com/photos/2422497/pexels-photo-2422497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt="project_img"
                 />
-                <h5>Weather forecast</h5>
+                <h5>Weather Forecast</h5>
+              </div>
+            </Link>
+            <Link
+              to="https://task-manager-spa-react.netlify.app/"
+              target="_blank"
+            >
+              <div className="project_item">
+                <img
+                  src="https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg"
+                  alt="project_img"
+                />
+                <h5>Task Manager</h5>
               </div>
             </Link>
           </div>
