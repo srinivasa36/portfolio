@@ -27,6 +27,27 @@ const Project = () => {
             />
           </h1>
           <div className="project">
+            <Link to="https://moviezzflex.netlify.app/" target="_blank">
+              <div className="project_item">
+                <img
+                  src="https://img.freepik.com/free-vector/seamless-pattern-with-cinema-elements_225004-1154.jpg?w=740&t=st=1717767716~exp=1717768316~hmac=3d7f3130ec8456bccdd457a23d588a38b8c8c32d2c846b8b66b21ad1e6f36f11"
+                  alt="project_img"
+                />
+                <h5>MoviezzFlex App</h5>
+              </div>
+            </Link>
+            <Link
+              to="https://e-commerce-fashion-react-js.netlify.app/"
+              target="_blank"
+            >
+              <div className="project_item">
+                <img
+                  src="https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg"
+                  alt="project_img"
+                />
+                <h5>E-Commerce App</h5>
+              </div>
+            </Link>
             <Link
               to="https://react-adminui-dashboard.netlify.app/"
               target="_blank"
