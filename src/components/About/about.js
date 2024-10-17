@@ -32,7 +32,7 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello, I'm Srinivas, a passionate front-end developer with 1.7 years
+            Hello, I'm Srinivas, a passionate front-end developer with 2 years
             of experience in crafting captivating and user-friendly web
             experiences. I'm dedicated to bringing ideas to life through clean
             and elegant code, and I thrive on the constant evolution of the
